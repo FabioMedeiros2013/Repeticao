@@ -16,18 +16,6 @@ public class ExemploFor {
     }
 
 
-O loop for é ideal quando o número de iterações é conhecido previamente. Ele possui três partes: inicialização, condição e incremento. 
-
-# Exemplo:
-		
-public class ExemploFor {
-    public static void main(String[] args) {
-		for (int i = 0; i < 5; i++) {
-			System.out.println("Número: " + i);
-		}
-        }
-    }	
-	
 # Estrutura while
 
 O loop while é usado quando o número de iterações não é conhecido antecipadamente. Ele continua executando enquanto a condição for verdadeira. Exemplo:
@@ -53,6 +41,7 @@ public class DoWhile {
 			} while (i < 5);
 		}
         }
+
 # Estrutura for-each
 
 O for-each é usado para iterar sobre arrays ou coleções de forma simplificada, sem a necessidade de gerenciar índices. Exemplo:
