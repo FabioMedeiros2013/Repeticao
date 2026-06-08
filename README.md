@@ -14,15 +14,6 @@ for (int i = 0; i < 5; i++) {
 
 # Exemplo:
 
-public class DoWhile {
-    public static void main(String[] args) {
-		int i = 0;
-			do {
-			System.out.println("Número: " + i);
-			i++;
-			} while (i < 5);
-		}
-        }
 # Estrutura for
 
 O loop for é ideal quando o número de iterações é conhecido previamente. Ele possui três partes: inicialização, condição e incremento. 
@@ -35,8 +26,6 @@ for (int i = 0; i < 5; i++) {
 }
 
 # Exemplo:
-
-
 		
 public class ExemploFor {
     public static void main(String[] args) {
