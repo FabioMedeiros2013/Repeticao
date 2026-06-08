@@ -57,6 +57,9 @@ public class ExemploWhile {
 		}
         }
     }
+# Estrutura do-while
+
+O do-while garante que o bloco de código seja executado pelo menos uma vez, pois a condição é verificada após a execução. Exemplo:
 
 public class DoWhile {
     public static void main(String[] args) {
@@ -81,15 +84,6 @@ public class DoWhile {
 		}
         }
 
-public class ExemploForEach {
-    public static void main(String[] args) {
-        String[] nomes = {"Ana", "Bruno", "Carlos"};
-        for (String nome : nomes) {
-            System.out.println("Nome: " + nome);
-        }
-    }
-}
-
 # Estrutura for-each
 
 O for-each é usado para iterar sobre arrays ou coleções de forma simplificada, sem a necessidade de gerenciar índices. Exemplo:
@@ -102,4 +96,6 @@ public class ExemploForEach {
         }
     }
 }
+
+
 
