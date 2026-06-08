@@ -5,16 +5,16 @@ A repetirção de rotinas pode ser realizada em Java das seguintes formas:
 
 O loop for é ideal quando o número de iterações é conhecido previamente. Ele possui três partes: inicialização, condição e incremento. 
 
-# Um exemplo básico:
-
-
-for (int i = 0; i < 5; i++) {
- System.out.println("Número: " + i);
-}
-
 # Exemplo:
 
-# Estrutura for
+public class ExemploFor {
+    public static void main(String[] args) {
+		for (int i = 0; i < 5; i++) {
+			System.out.println("Número: " + i);
+		}
+        }
+    }
+
 
 O loop for é ideal quando o número de iterações é conhecido previamente. Ele possui três partes: inicialização, condição e incremento. 
 
